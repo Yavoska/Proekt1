@@ -5,6 +5,6 @@
 *.jar
 *.war
 *.ear
-
+*.out
 *.iml
 *.idea
