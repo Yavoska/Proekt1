@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Main {
-    public static int[] function1() {
+    public static int[] MassivFullRandom() {
         int[] array = new int[6];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) Math.round((Math.random() * 40) - 10);
@@ -12,7 +12,7 @@ class Main {
     }
     public static void main(String[] args) {
         System.out.print("Choose Function" + "\n");
-        int[] result = function1();
+        int[] result = MassivFullRandom();
         System.out.print(Arrays.toString(result));
     }
 }
