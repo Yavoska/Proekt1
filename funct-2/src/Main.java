@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Main {
-    public static int[] MassivFullRandom() {
+    public static int[] massivFullRandom() {
         int[] array = new int[6];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) Math.round((Math.random() * 40) - 10);
