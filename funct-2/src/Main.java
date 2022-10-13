@@ -14,7 +14,5 @@ class Main {
         System.out.print("Choose Function" + "\n");
         int[] result = function1();
         System.out.print(Arrays.toString(result));
-        //int[] result2=function2();
-        //System.out.print();
     }
 }
